@@ -1,0 +1,81 @@
+form {
+  max-width: 900px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.todos {
+  margin: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.todo {
+  display: flex;
+  padding: 15px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #d2e7f5;
+  margin: 50px 20px;
+}
+
+/* .todo:nth-child(even) {
+	background-color: rgb(245, 245, 245);
+} */
+
+.todo .content {
+  flex: 1 1 100%;
+}
+
+.todo.done .content {
+  text-decoration: line-through;
+  color: #35acfc;
+}
+
+.todo-input {
+  display: block;
+  max-width: 700px;
+  padding: 15px 18px;
+  appearance: none;
+  border: 2px solid #d2e7f5;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 18px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.todo-submit {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: rgb(3,121,200);
+  background: linear-gradient(349deg, rgba(3,121,200,1) 0%, rgba(39,164,249,1) 100%);
+  color: #fff;
+  padding: 18px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.delete {
+  border: none;
+  background-color: transparent;
+}
+
+.fa-trash-alt {
+  color: #0694f3;
+}
+
+@media (max-width: 518px) {
+  form {
+    justify-content: center;
+  }
+  .todo-submit {
+    margin: 30px 0;
+  }
+}
