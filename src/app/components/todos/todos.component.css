@@ -6,11 +6,13 @@ form {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .todos {
   margin: 20px;
   max-width: 900px;
   margin: 0 auto;
 }
+
 .todo {
   display: flex;
   padding: 15px 15px;
@@ -40,7 +42,7 @@ form {
   border: 2px solid #d2e7f5;
   border-radius: 4px;
   background-color: transparent;
-  font-size: 18px;
+  font-size: 16px;
   outline: none;
   flex-grow: 1;
 }
@@ -58,17 +60,40 @@ form {
   padding: 18px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 700;
+  /* font-weight: 700; */
   margin-left: 20px;
 }
 
-.delete {
+.delete, .complete{
   border: none;
   background-color: transparent;
+  font-size: 18px;
 }
 
-.fa-trash-alt {
+
+.complete {
+  margin-left: 18px;
+   font-size: 25px;
+}
+
+.completed i {
+  color: #00b92e;
+}
+
+.complete i:hover {
+  color: #00b92e;
+}
+
+.delete i {
   color: #0694f3;
+}
+
+.completed-todo i {
+ color:#757575;
+}
+
+.delete i:hover {
+  color: #c40424;
 }
 
 @media (max-width: 518px) {

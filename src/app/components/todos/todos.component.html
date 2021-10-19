@@ -11,6 +11,7 @@
     <div *ngFor="let todo of todos; let i = index;" class="todo {{ (todo.completed ? 'done' : '') }}">
 
         <div class="content" (click)="toggleDone(i)">{{ todo.content }}</div>
-        <button class="delete" (click)="deleteTodo(i)"><i class="far fa-trash-alt"></i></button>
+        <button class="delete {{ (todo.completed ? 'completed-todo' : '') }}" (click)="deleteTodo(i)"><i class="far fa-trash-alt"></i></button>
+        <button class="complete {{ (todo.completed ? 'completed' : '') }}" (click)="toggleDone(i)"><i class="fas fa-check"></i></button>
     </div>
 </div>
