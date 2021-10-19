@@ -6,4 +6,4 @@ Simple to do list to learn the basics of Angular, ng commands, deploy...
 https://missnisha.github.io/angular-to-do-list/
 
 
-![angular-to-do-list-screenshot](https://github.com/missnisha/angular-to-do-list/blob/main/to-do-list-screenshot.JPG)
+![angular-to-do-list-screenshot](https://github.com/missnisha/angular-to-do-list/blob/main/to-do-list-screenshot.jpg)
