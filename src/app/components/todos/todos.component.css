@@ -15,7 +15,7 @@ form {
 
 .todo {
   display: flex;
-  padding: 15px 15px;
+  padding: 15px 0;
   background-color: #fff;
   border-bottom: 1px solid #d2e7f5;
   margin: 50px 20px;
@@ -57,7 +57,7 @@ form {
   background: rgb(3,121,200);
   background: linear-gradient(349deg, rgba(3,121,200,1) 0%, rgba(39,164,249,1) 100%);
   color: #fff;
-  padding: 18px;
+  padding: 17px;
   border-radius: 4px;
   font-size: 16px;
   /* font-weight: 700; */
@@ -68,12 +68,13 @@ form {
   border: none;
   background-color: transparent;
   font-size: 18px;
+  padding: 5px 15px;
 }
 
 
 .complete {
-  margin-left: 18px;
-   font-size: 25px;
+  padding: 5px 5px 5px 15px;
+   font-size: 22px;
 }
 
 .completed i {
